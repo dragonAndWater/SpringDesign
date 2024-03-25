@@ -1,0 +1,3 @@
+## spring-boot-starter-parent 2.4版本开始，只会识别application.* 配置文件,并不会自动识别bootstrap.yml
+server:
+  port: 8090
