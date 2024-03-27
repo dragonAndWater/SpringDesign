@@ -1,4 +1,4 @@
-package com.design.springdesign.controller;
+package com.design.springdesign.health;
 
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
