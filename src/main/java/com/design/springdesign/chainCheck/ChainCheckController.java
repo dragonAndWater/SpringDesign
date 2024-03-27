@@ -1,7 +1,5 @@
-package com.design.springdesign.controller;
+package com.design.springdesign.chainCheck;
 
-import com.design.springdesign.chainCheck.ChainCheckFactory;
-import com.design.springdesign.chainCheck.ChainCheckService;
 import jakarta.annotation.Resource;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
