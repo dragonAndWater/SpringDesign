@@ -11,7 +11,7 @@ import java.util.List;
 @Component
 public class ObserversFactory {
     @Resource
-    public List<AbstractObservers> observersList;
+    private List<AbstractObservers> observersList;
 
     public void updateState(String id) {
         observersList.forEach(service -> service.updateState(id));
